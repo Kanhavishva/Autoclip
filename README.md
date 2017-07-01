@@ -20,17 +20,17 @@ Shortcut
 
 Usage
 -----
-0. Create Autoclip directory in `~/Documents/`
-1. Simply just run `sudo ./autoclip`, this will start a autoclip process daemon and enable automatic saving using `Alt + Shift + d`
+0. Create `Autoclip` directory in `~/Documents/`
+1. Just run `sudo ./autoclip`, this will start a autoclip process daemon and enable automatic saving using `Alt + Shift + d`
 2. To disable automatic saving again use `Alt + Shift + d`
 3. To start at boots up in Ubuntu, follow the guide as described on SKeylogger [https://github.com/gsingh93/simple-key-logger]:
-  1. Edit `/etc/rc.local` and add `/path/to/autoclip` above the line with `exit 0`. Replace `/path/to/autoclip` with the full path to the keylogger binary.
+    * Edit `/etc/rc.local` and add `/path/to/autoclip` above the line with `exit 0`. Replace `/path/to/autoclip` with the full path to the keylogger binary.
 
-  2. Allow sudo access without a password (Note: this may be a security threat. Do at your own risk). To do this, add the following line to `/etc/sudoers` making sure to replace the path with the path you used above and the username with your username:
+    * Allow sudo access without a password (Note: this may be a security threat. Do at your own risk). To do this, add the following line to `/etc/sudoers` making sure to replace the path with the path you used above and the username with your username:
     ```
     username ALL = NOPASSWD: /path/to/autoclip
     ```
-  3. Reboot ubuntu. Open a terminal and type `pgrep autoclip`. You should find one `autoclip` process running.
+    * Reboot ubuntu. Open a terminal and type `pgrep autoclip`. You should find one `autoclip` process running.
 
 Source
 ------
