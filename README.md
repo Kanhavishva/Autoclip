@@ -20,7 +20,7 @@ Shortcut
 
 Usage
 -----
-Markup : 0. Create Autoclip directory in '~/Documents/'
+0. Create Autoclip directory in '~/Documents/'
 1. Simply just run 'sudo ./autoclip', this will start a autoclip process daemon and enable automatic saving using 'Alt + Shift + d'
 2. To disable automatic saving again use 'Alt + Shift + d'
 3. To start at boots up in Ubuntu, follow the guide as described on SKeylogger [https://github.com/gsingh93/simple-key-logger]:
