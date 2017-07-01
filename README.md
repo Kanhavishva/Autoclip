@@ -2,7 +2,7 @@ Autoclip
 ========
 An automatic clipboard copied text saving utility. Sometimes I need to copy text articles and other online text materials for later reading. I preffer to save web aricles in text format instead of pdf or other document formats and I dont wanna to switch to a text editor for paste everytime when I copy text. So I tried to make a automatic tool that save text continuosly when I copy text with `Ctrl+c` and save clipboard in a folder for later. I found a very nice tool named SKeylogger [https://github.com/gsingh93/simple-key-logger].
 Everytime copied text is pasted separated by a 80 character long dashed line so it will be clear to read it again.
-There is a custom shortcut keys combo for enable and disable automatic saving clipboard text.
+There is a custom shortcut keys for enable and disable automatic saving clipboard text.
 
 Feature
 -------
